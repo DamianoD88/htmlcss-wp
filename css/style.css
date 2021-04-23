@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.jumbotron{
+    margin-top: 20px;
+}
+
+.colonna-sx,
+.colonna-dx{
+    width: 25%;
+    float: left;
+}
+
+.container-main{
+    width: 50%;
+    float: left;
+}
+/* debug- sezione da eliminare */
+
+
+.debug #logo{
+    height: 70px;
+    background: lightgrey;
+}
+
+.debug nav{
+    height: 70px;
+    background: lightblue;
+}
+
+.debug .jumbotron{
+    height: 400px;
+    background: tomato;
+}
+
+.debug .colonne{
+    background: cyan;
+}
+
+.debug .colonna-sx, 
+.debug .colonna-dx{
+    height: 500px;
+    background-color: powderblue;
+
+}
+
+.debug .container-main{
+    height: 500px;
+    background-color: powderblue;
+}
+.debug .colonne{
+    border: 3px solid blue;
+}
