@@ -10,41 +10,72 @@
 
 }
 
+.debug #logo{
+    height: 70px;
+}
+
+
+.logo1 {
+    height: 50px;
+    margin: 20px 20px;
+
+}
+
+.rif-site {
+    background-color: lightblue;
+    height: 70px;
+    margin: 20px 0;
+}
+
 .jumbotron{
     margin-top: 20px;
 }
 
 .colonna-sx,
 .colonna-dx{
-    width: 25%;
+    width: 23%;
     float: left;
 }
 
 .container-main{
     width: 50%;
+    margin: 0 2%;
     float: left;
 }
+.colonne::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.title2 {
+    height: 70px;
+    margin: 20px 0;
+}
+
+footer {
+    height: 70px;
+    background-color: blue;
+    margin-top: 20px;
+}
+
 /* debug- sezione da eliminare */
 
 
-.debug #logo{
-    height: 70px;
-    background: lightgrey;
-}
 
-.debug nav{
-    height: 70px;
-    background: lightblue;
-}
 
 .debug .jumbotron{
     height: 400px;
     background: tomato;
 }
 
-.debug .colonne{
-    background: cyan;
+.debug .title2 {
+    background-color: blue;
 }
+
+/* .debug .colonne{
+    background: cyan;
+} */
 
 .debug .colonna-sx, 
 .debug .colonna-dx{
@@ -58,5 +89,6 @@
     background-color: powderblue;
 }
 .debug .colonne{
-    border: 3px solid blue;
+ 
 }
+
