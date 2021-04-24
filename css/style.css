@@ -52,9 +52,8 @@ nav li a {
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    margin-top: 20px;
 }
 
 .jumb-title {
@@ -69,7 +68,8 @@ nav li a {
     color: grey;
 }
 
-
+/* main */
+.title2
 
 
 /* .banner {
@@ -97,6 +97,12 @@ nav li a {
 .title2 {
     height: 70px;
     margin: 20px 0;
+    font-size: 21px;
+}
+
+.sub-title2 {
+    font-size: 21px;
+    color: grey;
 }
 
 footer {
@@ -108,9 +114,6 @@ footer {
 /* debug- sezione da eliminare */
 
 
-.debug .title2 {
-    background-color: blue;
-}
 
 /* .debug .colonne{
     background: cyan;
